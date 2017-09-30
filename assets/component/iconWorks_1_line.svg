@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>component/iconWorks_1_line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="component/iconWorks_1_line">
+            <path d="M8.2,35.8 L50.8,35.8 L50.8,25 C50.8,24.0058875 49.9941125,23.2 49,23.2 L10,23.2 C9.00588745,23.2 8.2,24.0058875 8.2,25 L8.2,35.8 Z" id="Rectangle" stroke="#FFFFFF" stroke-width="0.4"></path>
+            <path d="M59.2,60.8 L61.7219025,60.8 L79.8,60.8 L79.8,25.0001091 C79.8,24.0059966 78.9941125,23.2001091 78,23.2001091 L61,23.2001091 C60.0058875,23.2001091 59.2,24.0059966 59.2,25.0001091 L59.2,60.8 Z" id="Rectangle-Copy-3" stroke="#FFFFFF" stroke-width="0.4"></path>
+            <circle id="Oval" fill="#FFFFFF" cx="64" cy="29" r="2"></circle>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="62" y="35" width="4" height="2"></rect>
+            <rect id="Rectangle-2-Copy" fill="#FFFFFF" x="62" y="40" width="4" height="2"></rect>
+            <rect id="Rectangle-2-Copy-2" fill="#FFFFFF" x="62" y="44" width="4" height="2"></rect>
+            <path d="M59.2109864,64.7998909 L79.7890136,64.7998909 C79.6895252,63.8999612 78.9265595,63.2 78.0001091,63.2 L60.9998909,63.2 C60.0734405,63.2 59.3104748,63.8999612 59.2109864,64.7998909 Z" id="Rectangle-Copy-4" stroke="#FFFFFF" stroke-width="0.4" transform="translate(69.500000, 63.999945) scale(1, -1) translate(-69.500000, -63.999945) "></path>
+            <path d="M8.2,38.2 L8.2,50.8 L50.8,50.8 L50.8,38.2 L8.2,38.2 Z" id="Rectangle-Copy" stroke="#FFFFFF" stroke-width="0.4"></path>
+            <path d="M8.2,53.2 L8.2,64 C8.2,64.9941125 9.00588745,65.8 10,65.8 L49,65.8 C49.9941125,65.8 50.8,64.9941125 50.8,64 L50.8,53.2 L8.2,53.2 Z" id="Rectangle-Copy-2" stroke="#FFFFFF" stroke-width="0.4"></path>
+            <circle id="Oval" fill="#FFFFFF" cx="14" cy="30" r="2"></circle>
+            <circle id="Oval" fill="#FFFFFF" cx="14" cy="44" r="2"></circle>
+            <circle id="Oval" fill="#FFFFFF" cx="14" cy="60" r="2"></circle>
+        </g>
+    </g>
+</svg>

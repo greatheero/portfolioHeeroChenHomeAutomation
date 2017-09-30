@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>component/iconSolution_9_line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="component/iconSolution_9_line">
+            <polygon id="Path" fill="#FFFFFF" points="38.3550072 40 38.3550072 24 35 24 35 40"></polygon>
+            <path d="M52.4619975,24.3473541 C53.5949577,24.7164198 54.5122762,25.3930299 55.2139805,26.3772049 C55.7768059,27.1732288 56.1605447,28.034369 56.3652085,28.9606513 C56.5698723,29.8869336 56.6722026,30.7697832 56.6722026,31.6092266 C56.6722026,33.7367813 56.2409533,35.5386629 55.3784417,37.0149254 C54.2089344,39.0049851 52.4035346,40 49.9621882,40 L43,40 L43,24 L49.9621882,24 C50.9635788,24.0144732 51.7968402,24.1302567 52.4619975,24.3473541 Z M46.0721965,27 L46.0721965,37.4423338 L49.1859941,37.4423338 C50.7794478,37.4423338 51.890463,36.664413 52.5190732,35.1085482 C52.8626159,34.2546316 53.0343847,33.2379073 53.0343847,32.0583446 C53.0343847,30.430114 52.7767315,29.1800134 52.2614174,28.3080054 C51.7461032,27.4359974 50.7209724,27 49.1859941,27 L46.0721965,27 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <polygon id="Path" fill="#FFFFFF" points="34 46 34 47 54 47 54 46"></polygon>
+            <polygon id="Path" fill="#FFFFFF" points="34 51 34 52 54 52 54 51"></polygon>
+            <polygon id="Path" fill="#FFFFFF" points="34 56 34 57 54 57 54 56"></polygon>
+            <rect id="Rectangle-14" stroke="#FFFFFF" stroke-width="0.6" x="24" y="19" width="40" height="50" rx="2"></rect>
+        </g>
+    </g>
+</svg>

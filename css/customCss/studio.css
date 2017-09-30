@@ -1,0 +1,183 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: darkgrey;
+}
+
+.navBar {
+  background: #000;
+  width: 100%;
+  height: 8%;
+  color: #fff;
+  font-family: "Viga", sans-serif;
+  font-size: 24px;
+}
+
+.navBar h1 {
+  background: inherit;
+  display: inline;
+  font-size: 24px;
+  line-height: 64px;
+  vertical-align: middle;
+}
+
+.dropdownMenu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropButton {
+  box-sizing: border-box;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.dropdownMenu-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease-in 0.3s, transform 0.4s ease-out;
+}
+
+.dropdownMenu-content a {
+  display: block;
+  color: black;
+}
+
+.dropdownMenu:hover .dropdownMenu-content {
+  display: block;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.sideBar {
+  background: rgb(5, 127, 135);
+  width: 250px;
+  min-width: 200px;
+  height: 90%;
+  display: block;
+  float: left;
+}
+
+.sideBar button {
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(255, 0, 0, 0.23);
+  outline: none;
+}
+
+.sideBar button:before {
+  content: "";
+  display: block;
+  background-color: #000;
+  position: absolute;
+  width: 40px;
+  height: 38px;
+  color: #000;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+  transition: all 0.5s ease-out;
+}
+
+.sideBar button:active {
+  background-color: rgb(212, 186, 124);
+}
+
+.sideBar button:active:before {
+  background-color: rgb(155, 80, 196);
+  transform: translateX(158px);
+}
+
+.content {
+  background: rgb(57, 54, 57);
+  width: 700px;
+  min-width: 300px;
+  height: 90%;
+  display: inline-block;
+  position: absolute;
+  top: 8%;
+  left: 250px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #fff;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  position: absolute;
+  top: 200px;
+  left: 16px;
+}
+
+.img:hover {
+  cursor: pointer;
+}
+
+#rocketGroup {
+  transform: translateX(200px);
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]+label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -2px 10px 0 0;
+  vertical-align: middle;
+  background: url(check_radio_sheet.png) left top no-repeat;
+  cursor: pointer;
+}
+
+input[type="checkbox"]+label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -2px 10px 0 0;
+  vertical-align: middle;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) left top no-repeat;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked+label span {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -19px top no-repeat;
+}
+
+.footer {
+  clear: both;
+  background: #000;
+  height: 2%;
+  color: darkgrey;
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+
+#trapezoid {
+  border-left: 50px solid blue;
+  border-right: 50px solid blue;
+  border-top: 10px solid red;
+  height: 50px;
+  width: 100px;
+  border-radius: 8px;
+}
