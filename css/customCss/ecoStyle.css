@@ -22,6 +22,30 @@ p {
   text-align: left;
 }
 
+
+/*insigh section style*/
+
+.zenText {
+  font-size: 9.6em;
+  font-weight: 300;
+}
+
+.zenHeadingLeft {
+  margin-top: 3.2em;
+  margin-left: 3.2em;
+}
+
+.zenHeadingRight {
+  margin-top: 4em;
+  margin-left: -3em;
+}
+
+
+/*insigh section style*/
+
+
+/*personal believe style*/
+
 .subtitle {
   opacity: 0.6;
 }
@@ -30,6 +54,9 @@ p {
   text-align: right;
   margin-right: 128px;
 }
+
+
+/*personal believe style*/
 
 
 /*navigation bar*/
@@ -344,6 +371,21 @@ p {
 /*design the sub title*/
 
 .subTitleChallenge {}
+
+
+/*product panel style*/
+
+.productPanel {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.productThumbnailLeft {}
+
+.productThumbnailRight {}
+
+
+/*product panel style*/
 
 
 /*design the animation when scrolling to the specific div*/
