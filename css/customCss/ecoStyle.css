@@ -1,568 +1,696 @@
-                    html, body {
-                      height: 100%;
-                      background-color: #FCFCFC;
-                      font-family: "Source Sans Pro", sans-serif;
-                      font-weight: 300;
-                    }
-
-                    h4 {
-                      margin-top: 64px;
-                      margin-bottom: 96px;
-                      text-align: left;
-                      text-indent: 64px;
-                      font-family: "Playfair Display SC", serif;
-                      font-size: 24pt;
-                    }
-
-                    p {
-                      margin-top: 32px;
-                      margin-left: 64px;
-                      margin-bottom: 96px;
-                      margin-right: 128px;
-                      text-align: left;
-                    }
-                    /*insigh section style*/
-
-                    .zenText {
-                      font-size: 9.6em;
-                      font-weight: 300;
-                    }
-
-                    .zenHeadingLeft {
-                      margin-top: 3.2em;
-                      margin-left: 3.2em;
-                    }
-
-                    .zenHeadingRight {
-                      margin-top: 4em;
-                      margin-left: -3em;
-                    }
-                    /*insigh section style*/
-                    /*personal believe style*/
-
-                    .subtitle {
-                      opacity: 0.6;
-                    }
-
-                    .subtitle-alignRight {
-                      text-align: right;
-                      margin-right: 128px;
-                    }
-                    /*personal believe style*/
-                    /*navigation bar*/
-
-                    .navbar-default {
-                      background-color: #FCFCFC;
-                      border-color: transparent;
-                    }
-
-                    .navbar-default .navbar-brand {
-                      color: #040829;
-                    }
-
-                    .navbar-default .navbar-nav>li>a {
-                      color: #040829;
-                    }
-
-                    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-                      color: #040829;
-                      background-color: transparent;
-                      font-family: "Source Sans Pro", sans-serif;
-                      font-weight: 400;
-                    }
-                    /*sidebar*/
-
-                    .sidebar {}
-                    /*design name card*/
-
-                    .nameCard {
-                      margin: auto;
-                      width: 100%;
-                      padding-bottom: 1em;
-                      background-color: white;
-                      border: 1px solid hsl(223, 18%, 76%);
-                      border-radius: 2px;
-                      box-shadow: 0px 2px 5px 0px rgba(164, 164, 164, 0.5);
-                    }
-
-                    .nameCard>img {
-                      display: block;
-                      width: 100%;
-                      background-color: white;
-                      border-bottom: 1px solid rgb(164, 162, 173);
-                    }
-
-                    .nameCard>h5 {
-                      margin: auto;
-                      margin-top: 16px;
-                      padding-left: 16px;
-                      padding-top: 4px;
-                      width: 100%;
-                      height: 24px;
-                      text-align: left;
-                      font-family: "Source Sans Pro", sans-serif;
-                      font-weight: 400;
-                    }
-
-                    .nameCard>p {
-                      margin: auto;
-                      padding-left: 16px;
-                      padding-top: 4px;
-                      width: 100%;
-                      height: 24px;
-                      text-align: left;
-                      color: #173A88;
-                      background-color: white;
-                      font-family: arial, sans-serif;
-                      font-size: small;
-                      font-family: "Source Sans Pro", sans-serif;
-                      font-weight: 300;
-                    }
-                    /*content area*/
-
-                    .content {
-                      padding-left: 48px;
-                      width: 80%;
-                      background-color: hsl(240, 11%, 98%);
-                    }
-
-                    .banner {}
-
-                    .banner p {
-                      text-align: right;
-                    }
-
-                    .section-primary {
-                      color: #FFFFFF;
-                      background-color: #040829;
-                    }
-
-                    .section-secondary {
-                      color: #040829;
-                      background-color: #FFFFFF;
-                      padding-top: 32px;
-                      padding-bottom: 32px;
-                    }
-
-                    .section-secondary>p {
-                      color: #17598D;
-                      text-align: right;
-                    }
-
-                    .section-secondaryFloating {
-                      position: relative;
-                      left: -3%;
-                      width: 110%;
-                      box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 4px 6px 20px 0 rgba(0, 0, 0, 0.19);
-                    }
-
-                    .section-secondary>h4 {
-                      margin-top: 64px;
-                      margin-left: 64px;
-                      margin-bottom: 64px;
-                      margin-right: 128px;
-                      text-align: right;
-                    }
-
-                    .section .section_support {
-                      background-color: #043083;
-                      padding-top: 32px;
-                      padding-bottom: 32px;
-                    }
-
-                    .section_collapse {
-                      text-align: center;
-                    }
-
-                    .section_collapse>button {
-                      margin-top: 32px;
-                      margin-bottom: 64px;
-                    }
-
-                    .section-primary>p {
-                      color: #FFFFFF;
-                    }
-
-                    .imageFrame {
-                      text-align: center;
-                      margin-top: 64px;
-                      margin-bottom: 64px;
-                    }
-
-                    .imageFrameLevel_0 {
-                      margin-top: 32px;
-                      background-color: #043083;
-                      height: 480px;
-                      border-radius: 4px;
-                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                    }
-
-                    .imageFrameLevel_1 {
-                      margin-top: 96px;
-                      background-color: #043083;
-                      height: 480px;
-                      border-radius: 4px;
-                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                    }
-
-                    .imageFrameLevel_2 {
-                      margin-top: 160px;
-                      background-color: #043083;
-                      height: 480px;
-                      border-radius: 4px;
-                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                    }
-
-                    .imageFrameConnection {
-                      margin-top: 160px;
-                    }
-
-                    .imageFrame>img {
-                      display: block;
-                      margin: auto;
-                      width: 40%;
-                      height: 40%;
-                    }
-
-                    .imageFrame>h5 {
-                      margin: auto;
-                      margin-bottom: 1.2em;
-                      width: 72%;
-                      color: #FFFFFF;
-                      font-family: "Source Sans Pro", sans-serif;
-                      font-weight: 300;
-                      text-align: left;
-                    }
-
-                    .imageFrame>p {
-                      margin: auto;
-                      width: 72%;
-                      color: #FFFFFF;
-                      font-family: "Source Sans Pro", sans-serif;
-                      font-weight: 200;
-                    }
-                    /*define the banner*/
-
-                    .banner {
-                      margin-top: 32px;
-                      margin-bottom: 32px;
-                      margin-left: 32%;
-                    }
-                    /*define divider column for the iconConnection*/
-
-                    .columnConnection {
-                      height: 478px;
-                    }
-                    /*empty class for javascript control*/
-
-                    .iconWorks {}
-
-                    .textWorks {}
-
-                    .content>h3 {
-                      text-align: center;
-                      margin-top: 56px;
-                      margin-bottom: 32px;
-                    }
-
-                    .listView {
-                      margin: 8px;
-                    }
-
-                    .listView>.row {
-                      margin-top: 48px;
-                      margin-bottom: 48px;
-                    }
-
-                    .card {
-                      background-color: white;
-                      padding: 24px;
-                      margin: 4px;
-                      border: 1px solid rgb(228, 228, 228);
-                      border-radius: 4px;
-                      box-shadow: 4px 4px 3px grey;
-                    }
-
-                    .productThumbnail {
-                      padding: 24px;
-                      width: 208px;
-                      height: 128px;
-                    }
-                    /*override bootstrap default panel style*/
-
-                    .panel-group .panel {
-                      background-color: #043083;
-                      border-radius: 0px;
-                    }
-
-                    .panel-group {
-                      margin: 30px;
-                    }
-
-                    .panel {
-                      margin-bottom: 0px;
-                    }
-
-                    .panel-default {
-                      border-color: transparent;
-                    }
-
-                    .panel-default>.panel-heading {
-                      color: #17598D;
-                      background-color: #FCFCFC;
-                      border-color: transparent;
-                      overflow: hidden;
-                      z-index: 3;
-                    }
-
-                    .panel-heading {
-                      height: 4em;
-                      padding: 10px 15px;
-                      border-bottom: 1px solid transparent;
-                      border-top-left-radius: 0px;
-                      border-top-right-radius: 0px;
-                    }
-
-                    .panel-body {
-                      color: #FFFFFF;
-                    }
-
-                    .panel-body>.textColumnWrapper {
-                      -webkit-column-count: 3;
-                      -moz-column-count: 3;
-                      column-count: 3;
-                      -webkit-column-gap: 40px;
-                      -moz-column-gap: 40px;
-                      column-gap: 40px;
-                      text-align: justify;
-                      text-justify: inter-word;
-                    }
-                    /*design the section title*/
-
-                    .titleChallenge {}
-                    /*design the sub title*/
-
-                    .subTitleChallenge {}
-                    /*product panel style*/
-
-                    .productPanel {
-                      margin-top: 4em;
-                      margin-bottom: 4em;
-                    }
-
-                    .productThumbnailLeft {}
-
-                    .productThumbnailRight {}
-                    /*product panel style*/
-                    /*design the animation when scrolling to the specific div*/
-
-                    .sectionTitleSlideIn {
-                      position: relative;
-                      top: -24px;
-                      transform: translate3d(56px, 56px, 0);
-                      transform: scale3d(1.2, 1.2, 1.1);
-                      opacity: 0;
-                      -webkit-animation: titleSlideIn 0.5s ease-out;
-                      -webkit-animation-delay: 0.6s;
-                      -webkit-animation-fill-mode: forwards;
-                      animation: titleSlideIn 0.5s ease-out;
-                      animation-delay: 0.6s;
-                      animation-fill-mode: forwards;
-                    }
-
-                    @keyframes titleSlideIn {
-                      100% {
-                        top: 0px;
-                        opacity: 1.0;
-                        transform: none;
-                      }
-                    }
-                    /*design the animation when scrolling to the specific div*/
-
-                    .sectionIconBubbleUp {
-                      width: 30%;
-                      height: 30%;
-                      position: relative;
-                      top: 32px;
-                      opacity: 0.1;
-                      -webkit-animation: iconBubbleUp 1.4s ease-out;
-                      -webkit-animation-fill-mode: forwards;
-                      animation: iconBubbleUp 1.4s ease-out;
-                      animation-fill-mode: forwards;
-                    }
-
-                    @-webkit-keyframes iconBubbleUp {
-                      0% {
-                        width: 30%;
-                        height: 30%;
-                        top: 32px;
-                        opacity: 0.1;
-                      }
-                      50% {
-                        width: 32%;
-                        height: 32%;
-                        top: -16px;
-                        opacity: 0.6;
-                      }
-                      100% {
-                        width: 30%;
-                        height: 30%;
-                        top: 0px;
-                        opacity: 1.0;
-                      }
-                    }
-
-                    @keyframes iconBubbleUp {
-                      0% {
-                        width: 30%;
-                        height: 30%;
-                        top: 32px;
-                        opacity: 0.1;
-                      }
-                      50% {
-                        width: 32%;
-                        height: 32%;
-                        top: -16px;
-                        opacity: 0.6;
-                      }
-                      100% {
-                        width: 30%;
-                        height: 30%;
-                        top: 0px;
-                        opacity: 1.0;
-                      }
-                    }
-                    /*design the animation when scrolling to the specific div*/
-
-                    .sectiontextShowUp {
-                      opacity: 0;
-                      -webkit-animation: textShowUp 0.4s ease-out;
-                      -webkit-animation-fill-mode: forwards;
-                      -webkit-animation-delay: 1.0s;
-                      animation: textShowUp 0.4s ease-out;
-                      animation-fill-mode: forwards;
-                      animation-delay: 1.0s;
-                    }
-
-                    @-webkit-keyframes textShowUp {
-                      0% {
-                        opacity: 0;
-                      }
-                      100% {
-                        opacity: 1.0;
-                      }
-                    }
-
-                    @keyframes textShowUp {
-                      0% {
-                        opacity: 0;
-                      }
-                      100% {
-                        opacity: 1.0;
-                      }
-                    }
-                    /*define icons in the primary*/
-
-                    .imageFrameChallenge {}
-
-                    .paragraph_2Column {
-                      -webkit-column-count: 2;
-                      /* Chrome, Safari, Opera */
-                      -moz-column-count: 2;
-                      /* Firefox */
-                      column-count: 2;
-                      -webkit-column-gap: 40px;
-                      /* Chrome, Safari, Opera */
-                      -moz-column-gap: 40px;
-                      /* Firefox */
-                      column-gap: 40px;
-                    }
-                    /*define button animation*/
-
-                    .sectionAnimatedButton {
-                      width: 0%;
-                      animation: buttonFoldUp;
-                      animation-fill-mode: forwards;
-                      -webkit-animation: buttonFoldUp 1s ease-out;
-                      -webkit-animation-fill-mode: forwards;
-                    }
-
-                    @-webkit-keyframes buttonFoldUp {
-                      0% {
-                        width: 0%;
-                      }
-                      100% {
-                        width: 20%;
-                      }
-                    }
-                    /*define text animation*/
-
-                    .sectionAnimatedText {
-                      opacity: 0;
-                      width: : 100px;
-                      animation: textFadeUp;
-                      animation-fill-mode: forwards;
-                      -webkit-animation: textFadeUp 1s ease-out;
-                      -webkit-animation-fill-mode: forwards;
-                    }
-
-                    @-webkit-keyframes textFadeUp {
-                      0% {
-                        opacity: 0;
-                        width: : 0%;
-                      }
-                      100% {
-                        opacity: 1.0;
-                        width: : 20%;
-                      }
-                    }
-                    /*define imageFrame icon animation*/
-
-                    .animatedImageFrameLevel_0 {
-                      position: relative;
-                      top: 100px;
-                      animation: imageFrameMoveUp 1.8s ease-out;
-                      animation-fill-mode: forwards;
-                      -webkit-animation: imageFrameMoveUp 1.8s ease-out;
-                      -webkit-animation-fill-mode: forwards;
-                    }
-
-                    .animatedImageFrameLevel_1 {
-                      position: relative;
-                      top: 100px;
-                      animation: imageFrameMoveUp 1.2s ease-out;
-                      animation-fill-mode: forwards;
-                      -webkit-animation: imageFrameMoveUp 1.2s ease-out;
-                      -webkit-animation-fill-mode: forwards;
-                    }
-
-                    .animatedImageFrameLevel_2 {
-                      position: relative;
-                      top: 100px;
-                      animation: imageFrameMoveUp 0.3s ease-out;
-                      animation-fill-mode: forwards;
-                      -webkit-animation: imageFrameMoveUp 0.3s ease-out;
-                      -webkit-animation-fill-mode: forwards;
-                    }
-
-                    @-webkit-keyframes imageFrameMoveUp {
-                      0% {
-                        top: 100px;
-                        transform: rotateY(20deg);
-                      }
-                      100% {
-                        top: 0px;
-                        transform: none;
-                      }
-                    }
-
-                    @keyframes imageFrameMoveUp {
-                      0% {
-                        top: 100px;
-                        transform: rotateY(20deg);
-                      }
-                      100% {
-                        top: 0px;
-                        transform: none;
-                      }
-                    }
+html, body {
+  height: 100%;
+  background-color: #FCFCFC;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+}
+
+h4 {
+  margin-top: 64px;
+  margin-bottom: 96px;
+  text-align: left;
+  text-indent: 64px;
+  font-family: "Playfair Display SC", serif;
+  font-size: 24pt;
+}
+
+p {
+  margin-top: 32px;
+  margin-left: 64px;
+  margin-bottom: 96px;
+  margin-right: 128px;
+  text-align: left;
+}
+
+
+/*insigh section style*/
+
+.zenText {
+  font-size: 9.6em;
+  font-weight: 300;
+}
+
+.zenHeadingLeft {
+  margin-top: 3.2em;
+  margin-left: 3.2em;
+}
+
+.zenHeadingRight {
+  margin-top: 4em;
+  margin-left: -3em;
+}
+
+
+/*insigh section style*/
+
+
+/*personal believe style*/
+
+.subtitle {
+  opacity: 0.6;
+}
+
+.subtitle-alignRight {
+  text-align: right;
+  margin-right: 128px;
+}
+
+
+/*personal believe style*/
+
+
+/*navigation bar*/
+
+.navbar-default {
+  background-color: #FCFCFC;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  color: #040829;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #040829;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #040829;
+  background-color: transparent;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+
+/*sidebar*/
+
+.sidebar {}
+
+
+/*design name card*/
+
+.nameCard {
+  margin: auto;
+  width: 100%;
+  padding-bottom: 1em;
+  background-color: white;
+  border: 1px solid hsl(223, 18%, 76%);
+  border-radius: 2px;
+  box-shadow: 0px 2px 5px 0px rgba(164, 164, 164, 0.5);
+}
+
+.nameCard>img {
+  display: block;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgb(164, 162, 173);
+}
+
+.nameCard>h5 {
+  margin: auto;
+  margin-top: 16px;
+  padding-left: 16px;
+  padding-top: 4px;
+  width: 100%;
+  height: 24px;
+  text-align: left;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+.nameCard>p {
+  margin: auto;
+  padding-left: 16px;
+  padding-top: 4px;
+  width: 100%;
+  height: 24px;
+  text-align: left;
+  color: #173A88;
+  background-color: white;
+  font-family: arial, sans-serif;
+  font-size: small;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+}
+
+
+/*content area*/
+
+.content {
+  padding-left: 1em;
+  width: 80%;
+  background-color: #040829;
+  /*background-color: hsl(240, 11%, 98%);*/
+}
+
+
+/*banner image*/
+
+.banner {}
+
+.banner p {
+  text-align: right;
+}
+
+
+/*section-primary*/
+
+.section-primary {
+  color: #FFFFFF;
+  background-color: #040829;
+}
+
+
+/*section-secondary*/
+
+.section-secondary {
+  margin-top: 1px;
+  margin-left: 0.2em;
+  color: #040829;
+  background-color: #FFFFFF;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.section-secondary>p {
+  color: #17598D;
+  text-align: right;
+}
+
+.section-secondaryFloating {
+  position: relative;
+  left: -3%;
+  width: 105%;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 4px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-secondary>h4 {
+  margin-top: 64px;
+  margin-left: 64px;
+  margin-bottom: 64px;
+  margin-right: 128px;
+  text-align: right;
+}
+
+
+/*section support*/
+
+.section .section_support {
+  background-color: #043083;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.section_collapse {
+  text-align: center;
+}
+
+.section_collapse>button {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.section-primary>p {
+  color: #FFFFFF;
+}
+
+.imageFrame {
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.imageFrameLevel_0 {
+  margin-top: 32px;
+  background-color: #043083;
+  height: 480px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imageFrameLevel_1 {
+  margin-top: 96px;
+  background-color: #043083;
+  height: 480px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imageFrameLevel_2 {
+  margin-top: 160px;
+  background-color: #043083;
+  height: 480px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imageFrameConnection {
+  margin-top: 160px;
+}
+
+.imageFrame>img {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 40%;
+}
+
+.imageFrame>h5 {
+  margin: auto;
+  margin-bottom: 1.2em;
+  width: 72%;
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+.imageFrame>p {
+  margin: auto;
+  width: 72%;
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
+}
+
+
+/*define the banner*/
+
+.banner {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 32%;
+}
+
+
+/*define divider column for the iconConnection*/
+
+.columnConnection {
+  height: 478px;
+}
+
+
+/*empty class for javascript control*/
+
+.iconWorks {}
+
+.textWorks {}
+
+.listView {
+  margin: 8px;
+}
+
+.listView>.row {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.card {
+  background-color: white;
+  padding: 24px;
+  margin: 4px;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 4px;
+  box-shadow: 4px 4px 3px grey;
+}
+
+.productThumbnail {
+  padding: 24px;
+  width: 208px;
+  height: 128px;
+}
+
+
+/*override bootstrap default panel style*/
+
+.panel-group .panel {
+  background-color: #043083;
+  border-radius: 0px;
+}
+
+.panel-group {
+  margin: 30px;
+}
+
+.panel {
+  margin-bottom: 0px;
+}
+
+.panel-default {
+  border-color: transparent;
+}
+
+.panel-default>.panel-heading {
+  color: #17598D;
+  background-color: #FCFCFC;
+  border-color: transparent;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.panel-heading {
+  height: 4em;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.panel-body {
+  color: #FFFFFF;
+}
+
+.panel-body>.textColumnWrapper {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+/*design the section title*/
+
+.titleWorks {}
+
+.titleChallenge {}
+
+
+/*philosophy thumbnail*/
+
+.readingMark {
+  width: 44px;
+  height: 44px;
+  margin-left: 24px;
+}
+
+.readingMark {
+  width: 44px;
+  height: 44px;
+  margin-left: 24px;
+}
+
+.iconRight {
+  margin-left: 60%;
+}
+
+.readingMark>img {
+  transform: scale(0.5);
+}
+
+.diamond {}
+
+.pulse {
+  position: relative;
+  top: -42px;
+  opacity: 0;
+}
+
+.diamondDrop {
+  animation: drop 0.4s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.pulseGrow {
+  animation: grow 1.2s ease-out 0.4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes drop {
+  0% {
+    transform: scale(0.5) translate(0, -200px);
+    /*margin-top: -100px;*/
+  }
+  50% {
+    transform: scale(0.5) translate(0, 10px);
+    /*margin-top: 10px;*/
+  }
+  100% {
+    transform: scale(0.5) translate(0, 0px);
+    /*margin-top: 0px;*/
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  40% {
+    transform: scale(0.5);
+    opacity: 1.0;
+  }
+  100% {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+}
+
+
+/*design the sub title*/
+
+.subTitleChallenge {}
+
+
+/*product panel style*/
+
+.productPanel {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.productThumbnailLeft {}
+
+.productThumbnailRight {}
+
+
+/*product panel style*/
+
+
+/*design the animation when scrolling to the specific div*/
+
+.sectionTitleSlideIn {
+  position: relative;
+  top: -24px;
+  transform: translate3d(56px, 56px, 0);
+  transform: scale3d(1.2, 1.2, 1.1);
+  opacity: 0;
+  -webkit-animation: titleSlideIn 0.5s ease-out;
+  -webkit-animation-delay: 0.6s;
+  -webkit-animation-fill-mode: forwards;
+  animation: titleSlideIn 0.5s ease-out;
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes titleSlideIn {
+  100% {
+    top: 0px;
+    opacity: 1.0;
+    transform: none;
+  }
+}
+
+
+/*design the animation when scrolling to the specific div*/
+
+.sectionIconBubbleUp {
+  width: 30%;
+  height: 30%;
+  position: relative;
+  top: 32px;
+  opacity: 0.1;
+  -webkit-animation: iconBubbleUp 1.4s ease-out;
+  -webkit-animation-fill-mode: forwards;
+  animation: iconBubbleUp 1.4s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes iconBubbleUp {
+  0% {
+    width: 30%;
+    height: 30%;
+    top: 32px;
+    opacity: 0.1;
+  }
+  50% {
+    width: 32%;
+    height: 32%;
+    top: -16px;
+    opacity: 0.6;
+  }
+  100% {
+    width: 30%;
+    height: 30%;
+    top: 0px;
+    opacity: 1.0;
+  }
+}
+
+@keyframes iconBubbleUp {
+  0% {
+    width: 30%;
+    height: 30%;
+    top: 32px;
+    opacity: 0.1;
+  }
+  50% {
+    width: 32%;
+    height: 32%;
+    top: -16px;
+    opacity: 0.6;
+  }
+  100% {
+    width: 30%;
+    height: 30%;
+    top: 0px;
+    opacity: 1.0;
+  }
+}
+
+
+/*design the animation when scrolling to the specific div*/
+
+.sectiontextShowUp {
+  opacity: 0;
+  -webkit-animation: textShowUp 0.4s ease-out;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 1.0s;
+  animation: textShowUp 0.4s ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1.0s;
+}
+
+@-webkit-keyframes textShowUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+@keyframes textShowUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+
+/*define icons in the primary*/
+
+.imageFrameChallenge {}
+
+.paragraph_2Column {
+  -webkit-column-count: 2;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 2;
+  /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 40px;
+  /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px;
+  /* Firefox */
+  column-gap: 40px;
+}
+
+
+/*define button animation*/
+
+.sectionAnimatedButton {
+  width: 0%;
+  animation: buttonFoldUp;
+  animation-fill-mode: forwards;
+  -webkit-animation: buttonFoldUp 1s ease-out;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes buttonFoldUp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
+
+/*define text animation*/
+
+.sectionAnimatedText {
+  opacity: 0;
+  width: : 100px;
+  animation: textFadeUp;
+  animation-fill-mode: forwards;
+  -webkit-animation: textFadeUp 1s ease-out;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes textFadeUp {
+  0% {
+    opacity: 0;
+    width: : 0%;
+  }
+  100% {
+    opacity: 1.0;
+    width: : 20%;
+  }
+}
+
+
+/*define imageFrame icon animation*/
+
+.animatedImageFrameLevel_0 {
+  position: relative;
+  top: 100px;
+  animation: imageFrameMoveUp 1.8s ease-out;
+  animation-fill-mode: forwards;
+  -webkit-animation: imageFrameMoveUp 1.8s ease-out;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.animatedImageFrameLevel_1 {
+  position: relative;
+  top: 100px;
+  animation: imageFrameMoveUp 1.2s ease-out;
+  animation-fill-mode: forwards;
+  -webkit-animation: imageFrameMoveUp 1.2s ease-out;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.animatedImageFrameLevel_2 {
+  position: relative;
+  top: 100px;
+  animation: imageFrameMoveUp 0.3s ease-out;
+  animation-fill-mode: forwards;
+  -webkit-animation: imageFrameMoveUp 0.3s ease-out;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes imageFrameMoveUp {
+  0% {
+    top: 100px;
+    transform: rotateY(20deg);
+  }
+  100% {
+    top: 0px;
+    transform: none;
+  }
+}
+
+@keyframes imageFrameMoveUp {
+  0% {
+    top: 100px;
+    transform: rotateY(20deg);
+  }
+  100% {
+    top: 0px;
+    transform: none;
+  }
+}

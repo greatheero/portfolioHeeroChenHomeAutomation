@@ -44,7 +44,9 @@ $(window).on('load resize scroll', function() {
     var elementId = $(this).attr('id');
 
     if ($(this).isInViewport()) {
-      $(".title" + elementId).addClass("sectionTitleSlideIn");
+      $(".pulse").addClass("pulseGrow");
+      $(".diamond").addClass("diamondDrop");
+      // $(".title" + elementId).addClass("sectionTitleSlideIn");
       $(".icon" + elementId).addClass("sectionIconBubbleUp");
       $(".text" + elementId).addClass("sectiontextShowUp");
       $("#button" + elementId).addClass("sectionAnimatedButton");
