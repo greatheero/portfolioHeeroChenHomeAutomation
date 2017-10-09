@@ -44,10 +44,15 @@ p {
 /*insigh section style*/
 
 
-/*personal believe style*/
+/*quote*/
 
 .subtitle {
   opacity: 0.6;
+}
+
+.subtitle-alignLeft {
+  text-align: left;
+  margin-left: 128px;
 }
 
 .subtitle-alignRight {
@@ -56,7 +61,35 @@ p {
 }
 
 
-/*personal believe style*/
+/*quote*/
+
+
+/*persona imageFrame*/
+
+.personaImageFrame {
+  padding: 32px;
+  text-align: center;
+}
+
+.personaImageFrame>p {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.personaImageFrame>img {
+  /*margin-left: 20%;*/
+  /*margin-right: 20%;*/
+}
+
+.personaText {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+}
+
+
+/*persona imageFrame*/
 
 
 /*navigation bar*/

@@ -56,7 +56,9 @@ $(window).on('load resize scroll', function() {
       }
 
     } else {
-
+      for (var i = 0; i < 3; i++) {
+        $("#imageFrame" + elementId + "_" + i.toString()).removeClass("animatedImageFrameLevel_" + i.toString());
+      }
     }
   });
 });
