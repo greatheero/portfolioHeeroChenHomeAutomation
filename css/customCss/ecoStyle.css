@@ -407,9 +407,13 @@ p {
 
 /*design the section title*/
 
+.titlePhilosophy {}
+
 .titleWorks {}
 
 .titleChallenge {}
+
+.subtitlePhilosophy {}
 
 
 /*philosophy thumbnail*/
@@ -507,9 +511,7 @@ p {
 
 .sectionTitleSlideIn {
   position: relative;
-  top: -24px;
-  transform: translate3d(56px, 56px, 0);
-  transform: scale3d(1.2, 1.2, 1.1);
+  transform: translate3d(-56px, 0, 0);
   opacity: 0;
   -webkit-animation: titleSlideIn 0.5s ease-out;
   -webkit-animation-delay: 0.6s;
@@ -520,6 +522,26 @@ p {
 }
 
 @keyframes titleSlideIn {
+  100% {
+    top: 0px;
+    opacity: 1.0;
+    transform: none;
+  }
+}
+
+.animatedSubtitleSlideIn {
+  position: relative;
+  top: -24px;
+  opacity: 0;
+  -webkit-animation: subtitleSlideIn 0.5s cubic-bezier(.82, .49, .89, .76);
+  -webkit-animation-delay: 1.2s;
+  -webkit-animation-fill-mode: forwards;
+  animation: subtitleSlideIn 0.5s cubic-bezier(.82, .49, .89, .76);
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes subtitleSlideIn {
   100% {
     top: 0px;
     opacity: 1.0;
@@ -726,4 +748,11 @@ p {
     top: 0px;
     transform: none;
   }
+}
+
+
+/*style for specific icon*/
+
+#iconBalance {
+  margin: 24px;
 }

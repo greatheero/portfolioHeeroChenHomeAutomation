@@ -40,25 +40,38 @@ $.fn.isInViewport = function() {
 };
 
 $(window).on('load resize scroll', function() {
-  $('.section-primary').each(function() {
+  // $('.section-primary').each(function() {
+  //   var elementId = $(this).attr('id');
+  //
+  //   if ($(this).isInViewport()) {
+  //     $(".pulse").addClass("pulseGrow");
+  //     $(".diamond").addClass("diamondDrop");
+  //     $(".title" + elementId).addClass("sectionTitleSlideIn");
+  //     $(".icon" + elementId).addClass("sectionIconBubbleUp");
+  //     $(".text" + elementId).addClass("sectiontextShowUp");
+  //     $("#button" + elementId).addClass("sectionAnimatedButton");
+  //     $("#text" + elementId).addClass("sectionAnimatedText");
+  //     for (var i = 0; i < 3; i++) {
+  //       $("#imageFrame" + elementId + "_" + i.toString()).addClass("animatedImageFrameLevel_" + i.toString());
+  //     }
+  //
+  //   } else {
+  //     for (var i = 0; i < 3; i++) {
+  //       $("#imageFrame" + elementId + "_" + i.toString()).removeClass("animatedImageFrameLevel_" + i.toString());
+  //     }
+  //   }
+  // });
+
+  $('.section-secondary').each(function() {
     var elementId = $(this).attr('id');
 
     if ($(this).isInViewport()) {
       $(".pulse").addClass("pulseGrow");
       $(".diamond").addClass("diamondDrop");
-      // $(".title" + elementId).addClass("sectionTitleSlideIn");
-      $(".icon" + elementId).addClass("sectionIconBubbleUp");
-      $(".text" + elementId).addClass("sectiontextShowUp");
-      $("#button" + elementId).addClass("sectionAnimatedButton");
-      $("#text" + elementId).addClass("sectionAnimatedText");
-      for (var i = 0; i < 3; i++) {
-        $("#imageFrame" + elementId + "_" + i.toString()).addClass("animatedImageFrameLevel_" + i.toString());
-      }
-
+      $(".title" + elementId).addClass("sectionTitleSlideIn");
+      $(".subtitle" + elementId).addClass("animatedSubtitleSlideIn");
     } else {
-      for (var i = 0; i < 3; i++) {
-        $("#imageFrame" + elementId + "_" + i.toString()).removeClass("animatedImageFrameLevel_" + i.toString());
-      }
+
     }
   });
 });
