@@ -55,6 +55,11 @@ p {
   margin-left: 128px;
 }
 
+.subtitle-alignLeft {
+  text-align: left;
+  margin-right: 128px;
+}
+
 .subtitle-alignRight {
   text-align: right;
   margin-right: 128px;
