@@ -14,6 +14,11 @@ h4 {
   font-size: 24pt;
 }
 
+h5 {
+  margin-left: 64px;
+  font-weight: bold;
+}
+
 p {
   margin-top: 32px;
   margin-left: 64px;
@@ -38,6 +43,16 @@ p {
 .zenHeadingRight {
   margin-top: 4em;
   margin-left: -3em;
+}
+
+
+/*add text frame style*/
+
+.textFrame {}
+
+.textFrame>p {
+  margin-top: 8px;
+  margin-bottom: 48px;
 }
 
 
