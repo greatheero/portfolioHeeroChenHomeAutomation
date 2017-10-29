@@ -48,9 +48,12 @@ $(window).on('load resize scroll', function() {
       $(".diamond").addClass("diamondDrop");
       $(".title" + elementId).addClass("sectionTitleSlideIn");
       $(".icon" + elementId).addClass("sectionIconBubbleUp");
+      $(".image" + elementId).addClass("animatedSectionImage");
       $(".text" + elementId).addClass("sectiontextShowUp");
       $("#button" + elementId).addClass("sectionAnimatedButton");
       $("#text" + elementId).addClass("sectionAnimatedText");
+
+
       for (var i = 0; i < 3; i++) {
         $("#imageFrame" + elementId + "_" + i.toString()).addClass("animatedImageFrameLevel_" + i.toString());
       }

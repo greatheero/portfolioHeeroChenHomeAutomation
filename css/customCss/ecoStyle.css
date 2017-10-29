@@ -491,6 +491,11 @@ p {
 .subtitlePhilosophy {}
 
 
+/*design the section image*/
+
+.imageIntroduction {}
+
+
 /*philosophy thumbnail*/
 
 .readingMark {
@@ -750,6 +755,15 @@ p {
   }
 }
 
+@keyframes buttonFoldUp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
 
 /*define text animation*/
 
@@ -763,6 +777,17 @@ p {
 }
 
 @-webkit-keyframes textFadeUp {
+  0% {
+    opacity: 0;
+    width: : 0%;
+  }
+  100% {
+    opacity: 1.0;
+    width: : 20%;
+  }
+}
+
+@keyframes textFadeUp {
   0% {
     opacity: 0;
     width: : 0%;
@@ -800,6 +825,15 @@ p {
   animation: imageFrameMoveUp 0.3s ease-out;
   animation-fill-mode: forwards;
   -webkit-animation: imageFrameMoveUp 0.3s ease-out;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.animatedSectionImage {
+  position: relative;
+  top: 100px;
+  animation: imageFrameMoveUp 1.6s ease-out;
+  animation-fill-mode: forwards;
+  -webkit-animation: imageFrameMoveUp 1.6s ease-out;
   -webkit-animation-fill-mode: forwards;
 }
 
