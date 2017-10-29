@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="234px" height="410px" viewBox="0 0 234 410" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/iconExperience</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M57.034208,1.04491178 L111.744,83.1096002 L0,83.1096002 L54.7097923,1.04491178 L54.7097923,1.04491178 C55.1377054,0.403042106 56.0049357,0.229596045 56.6468054,0.657509162 C56.8002471,0.759803612 56.9319136,0.891470105 57.034208,1.04491178 Z" id="path-1"></path>
+        <polygon id="path-2" points="36.3168001 28.6344001 72.6336002 83.1096002 0 83.1096002"></polygon>
+        <polygon id="path-3" points="22.3488001 49.5864001 44.6976001 83.1096002 0 83.1096002"></polygon>
+    </defs>
+    <g id="draft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/iconExperience">
+            <g transform="translate(17.000000, 272.000000)">
+                <text id="Product-Value" font-family="SFUIDisplay-Bold, SF UI Display" font-size="11.1744" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="0" y="11">Product</tspan>
+                    <tspan x="0" y="25">Value </tspan>
+                </text>
+                <text id="Design-Thinking" font-family="SFUIDisplay-Bold, SF UI Display" font-size="11.1744" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="161.819606" y="46.6184001">Design</tspan>
+                    <tspan x="152.980481" y="60.6184001">Thinking </tspan>
+                </text>
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="30.7296001" width="199.044001" height="1" rx="0.5"></rect>
+                <g id="Group-3" transform="translate(187.869601, 11.174400)" fill="#FFFFFF">
+                    <path d="M6.16830394,8.69187163 L11.1744,16.2010158 L0,16.2010158 L5.00609609,8.69187163 L5.00609609,8.69187163 C5.22005265,8.37093679 5.6536678,8.28421376 5.97460263,8.49817032 C6.05132347,8.54931755 6.11715672,8.61515079 6.16830394,8.69187163 Z" id="Triangle-7" transform="translate(5.587200, 12.290908) scale(1, -1) translate(-5.587200, -12.290908) "></path>
+                    <rect id="Rectangle-33" x="0.698400002" y="6.28560002" width="9.77760003" height="1.3968"></rect>
+                    <rect id="Rectangle-33" x="2.09520001" y="4.19040001" width="6.98400002" height="1.3968"></rect>
+                    <rect id="Rectangle-33" x="3.49200001" y="2.09520001" width="4.19040001" height="1"></rect>
+                    <rect id="Rectangle-33" x="4.88880001" y="0" width="1.3968" height="1"></rect>
+                </g>
+                <g id="Group-3" transform="translate(5.820000, 41.341400) scale(1, -1) translate(-5.820000, -41.341400) translate(0.000000, 33.096400)" fill="#FFFFFF">
+                    <path d="M6.16830394,8.69187163 L11.1744,16.2010158 L0,16.2010158 L5.00609609,8.69187163 L5.00609609,8.69187163 C5.22005265,8.37093679 5.6536678,8.28421376 5.97460263,8.49817032 C6.05132347,8.54931755 6.11715672,8.61515079 6.16830394,8.69187163 Z" id="Triangle-7" transform="translate(5.587200, 12.290908) scale(1, -1) translate(-5.587200, -12.290908) "></path>
+                    <rect id="Rectangle-33" x="0.698400002" y="6.28560002" width="9.77760003" height="1.3968"></rect>
+                    <rect id="Rectangle-33" x="2.09520001" y="4.19040001" width="6.98400002" height="1.3968"></rect>
+                    <rect id="Rectangle-33" x="3.49200001" y="2.09520001" width="4.19040001" height="1"></rect>
+                    <rect id="Rectangle-33" x="4.88880001" y="0" width="1.3968" height="1"></rect>
+                </g>
+                <g id="Group" transform="translate(53.078400, 34.920000)">
+                    <g id="Triangle-8">
+                        <use fill="#040829" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#FFFFFF" stroke-width="0.698400002" d="M0.65248617,82.7604002 L111.091514,82.7604002 L56.7436561,1.23861309 C56.6669352,1.12353183 56.5681854,1.02478196 56.4531041,0.948061125 C55.9717018,0.627126288 55.3212791,0.757210833 55.0003443,1.23861309 L0.65248617,82.7604002 Z"></path>
+                    </g>
+                    <g id="Triangle-8">
+                        <use fill-opacity="0.6" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke="#FFFFFF" stroke-width="0.558720002" d="M36.3168001,29.1380235 L0.521988936,82.8302402 L72.1116113,82.8302402 L36.3168001,29.1380235 Z"></path>
+                    </g>
+                    <g id="Triangle-8">
+                        <use fill-opacity="0.3" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <path stroke="#FFFFFF" stroke-width="0.5" d="M22.3488001,50.0370941 L0.467129273,82.8596002 L44.2304709,82.8596002 L22.3488001,50.0370941 Z"></path>
+                    </g>
+                    <text id="UE" font-family="SFUIDisplay-Bold, SF UI Display" font-size="11.1744" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="13.968" y="78.7448002">UE</tspan>
+                    </text>
+                    <text id="UI" font-family="SFUIDisplay-Bold, SF UI Display" font-size="11.1744" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="36.3168001" y="64.0784002">UI</tspan>
+                    </text>
+                    <text id="UX" font-family="SFUIDisplay-Bold, SF UI Display" font-size="11.1744" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="58.6656002" y="49.4120001">UX</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

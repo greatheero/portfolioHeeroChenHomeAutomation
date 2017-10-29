@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="198px" height="198px" viewBox="0 0 198 198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/iconActivity</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="draft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/iconActivity">
+            <g id="Group" transform="translate(35.000000, 35.000000)">
+                <path d="M63.7381938,0 C98.9395134,0 127.476388,28.5368742 127.476388,63.7381938 C127.476388,98.9395134 98.9395134,127.476388 63.7381938,127.476388 C28.5368742,127.476388 0,98.9395134 0,63.7381938 C0,28.5368742 28.5368742,0 63.7381938,0 Z" id="Shape" fill="#000000"></path>
+                <polygon id="Path-13" fill="#FFFFFF" points="34.0044892 68.5525555 46.6268456 29.0309278 59.3084011 93.57408 75.3245089 43.3531334 92.0294772 85.2141099 101.820391 68.5525555 123.082272 70.5310704 103.065353 70.6708442 92.0294772 90.2289375 75.3245089 57.1708559 59.3084011 98.6240235 46.6268456 46.2200191 34.9751139 70.6647902 3.95876289 70.6647902"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

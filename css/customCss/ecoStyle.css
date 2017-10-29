@@ -84,32 +84,49 @@ p {
 /*quote*/
 
 
-/*persona imageFrame*/
+/*persona label*/
 
-.personaImageFrame {
-  padding: 32px;
-  text-align: center;
+.personaLabel {
+  margin-left: 64px;
 }
 
-.personaImageFrame>p {
-  margin-left: 20%;
-  margin-right: 20%;
-  text-align: center;
+.personaLabel>p {
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
-.personaImageFrame>img {
-  /*margin-left: 20%;*/
-  /*margin-right: 20%;*/
-}
-
-.personaText {
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: left;
+.personaLabel .label-primary {
+  background-color: #043083;
 }
 
 
-/*persona imageFrame*/
+/*persona label*/
+
+
+/*product label*/
+
+.productLabel {
+  margin: auto;
+  margin-left: 4em;
+  margin-bottom: 4em;
+}
+
+.productLabel>p {
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.productLabel .label-primary {
+  background-color: #FFFFFF;
+  color: #043083;
+}
+
+
+/*product label*/
+
+.personaText {}
 
 
 /*navigation bar*/
@@ -267,11 +284,75 @@ p {
   color: #FFFFFF;
 }
 
+.image {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  padding: 1em;
+}
+
+
+/*persona imageFrame*/
+
+.personaImageFrame {
+  padding: 32px;
+  text-align: center;
+}
+
+.personaImageFrame>p {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.personaImageFrame>img {
+  /*margin-left: 20%;*/
+  /*margin-right: 20%;*/
+}
+
+
+/*persona imageFrame*/
+
+
+/*product imageFrame*/
+
 .imageFrame {
   text-align: center;
   margin-top: 64px;
   margin-bottom: 64px;
 }
+
+.imageFrameConnection {
+  margin-top: 160px;
+}
+
+.imageFrame>img {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 40%;
+}
+
+.imageFrame>h5 {
+  margin: auto;
+  margin-bottom: 1.2em;
+  width: 72%;
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.imageFrame>p {
+  margin: auto;
+  width: 72%;
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
+}
+
+
+/*imageFrame card*/
 
 .imageFrameLevel_0 {
   margin-top: 32px;
@@ -297,34 +378,8 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.imageFrameConnection {
-  margin-top: 160px;
-}
 
-.imageFrame>img {
-  display: block;
-  margin: auto;
-  width: 40%;
-  height: 40%;
-}
-
-.imageFrame>h5 {
-  margin: auto;
-  margin-bottom: 1.2em;
-  width: 72%;
-  color: #FFFFFF;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  text-align: left;
-}
-
-.imageFrame>p {
-  margin: auto;
-  width: 72%;
-  color: #FFFFFF;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 200;
-}
+/*imageFrame card*/
 
 
 /*define the banner*/
@@ -451,7 +506,7 @@ p {
 }
 
 .iconRight {
-  margin-left: 60%;
+  margin-left: 26%;
 }
 
 .readingMark>img {
